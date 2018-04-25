@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#game-screen {
+    display: block;
+}
+
+#gameOver, #playHUD, #starting, #difficulty {
+    position: absolute;
+    visibility: hidden;
+}
+h3, h1, h4 {
+    text-align: center;
+}
+#select{
+    font-size: 35px;
+}
+.title {
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#restartButton, #Start, #Easy, #Medium, #Hard {
+    border: black solid;
+    border-radius: 30px;
+}
+
+#restartButton:hover, #Start:hover, #Easy:hover, #Medium:hover, #Hard:hover{
+   background-color: #333
+}
+
+#scoreboard {
+    margin: 0;
+}
+div {
+    display: none;
+}

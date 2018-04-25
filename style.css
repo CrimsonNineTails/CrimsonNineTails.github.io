@@ -1,0 +1,95 @@
+body{
+    background-color: #222
+}
+/*
+#headerMain{
+    margin: auto;
+}*/
+h1{
+    background: #1a1a1a;
+    padding: 2% 0 2% 0;
+    margin: 0 20% 0 20%;
+    color: #FFFFFF;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+#mainHeader{
+    background-image: url("gen.jpg");
+    padding: 2% 0 2% 0;
+    margin: 0 20% 0 20%;
+    color: #FFFFFF;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#mainInfo{
+    background: #1a1a1a;
+    padding: 2% 0 2% 0;
+    margin: 0 20% 0 40%;
+    color: #FFFFFF;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+#main2Info{
+    background: #1a1a1a;
+    padding: 2% 0 2% 0;
+    margin: 0 20% 0 20%;
+    color: #FFFFFF;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+#imgList{
+    float: left;
+    display: block;
+    margin-left: 17.5%;
+}
+#nav,#nav ul {
+    list-style: none outside none;
+}
+#nav {
+    background: #1a1a1a;
+    clear: both;
+    font-size: 12px;
+    height: 58px;
+    padding: 0 4% 0 4%;
+    margin: 1% 31% 1% 34%;
+    position: relative;
+    width: 350px;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+}
+#nav li a {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 30px;
+    padding: 23px 20px 0;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+#nav li:hover > a {
+    color: #00B4FF;
+}
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active {
+    background: none repeat scroll 0 0 #121212;
+    outline: 0 none;
+}
+#preview{
+    padding: 0;
+    border: 2px solid #1a1a1a;
+    border-radius: 20px;
+}

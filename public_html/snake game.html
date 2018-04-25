@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Anders Museth's Snake</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onload="Highscore()">
+        <div>
+            <img id="Imgs" alt="" src="Obama.png" height="20" width="20">
+            <img id="2Imgs" alt="" src="Trump.png" height="20" width="20">
+            <img id="3Imgs" alt="" src="explosion.gif">
+        </div>
+        <section id="starting">
+            <h1 id="startScreen">Welcome to Snake</h1>
+            <h1 id="Start">Start!</h1>
+        </section>
+        <section id="difficulty">
+            <h4 id="select">Select Your Difficulty</h4>
+            <h4 id="Easy">Easy</h4>
+            <h4 id="Medium">Medium</h4>
+            <h4 id="Hard">Hard</h4>
+        </section>
+        <section id="playHUD">
+            <h2 id="scoreboard"></h2>
+            <h2 id="Highscore"></h2>
+        </section>
+        <section id="gameOver">
+            <h3 class="title">Game Over !!!!</h3>
+            <h3 id="restartButton">Restart?</h3>
+        </section>
+        
+        <canvas id="game-screen"></canvas>
+        <script src="js/snake.js"></script>
+        
+    </body>
+</html>
