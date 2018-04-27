@@ -24,7 +24,7 @@ h1{
     border-radius: 20px;
     font-size: 40px;
     text-align: center;
-    
+    font-family: 'Gugi', cursive;
 }
 #mainInfo{
     background: #1a1a1a;
@@ -48,7 +48,7 @@ h1{
     font-size: 22px;
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
-
+    
 }
 #imgList{
     float: left;
@@ -69,6 +69,7 @@ h1{
     /*width: 350px;*/
     border: 2px solid #1a1a1a;
     border-radius: 20px;
+    font-family: 'Do Hyeon', sans-serif;
 }
 #nav li a {
     color: #FFFFFF;
